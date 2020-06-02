@@ -1,4 +1,4 @@
 # TextEncoding
 Text Encoding for Ancient and Modern Literature, Languages and History
 
-Our video using HTML and CSS as examples of markup is on Vimeo here: https://vimeo.com/424811389 
+For course information including links to materials such as software, videos and a slideshow, please see the wiki on this repo.
