@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_drama.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_drama.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Mask Presented at Ludlow Castle, 1634</title>
+            <author>John Milton</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Performance text demo for LRBS-DHRH-EpiDoc TEI workshop (February 2022).</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>John Milton Reading Room 
+               <ref target="https://milton.host.dartmouth.edu/reading_room/comus/text.shtml">https://milton.host.dartmouth.edu/reading_room/comus/text.shtml</ref></p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <!-- For more encoding info, see Ch 7 of the TEI Guidelines: https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DR.html#DRPERF -->
+     <front>
+        <div type="Dramatis_Personae">
+           <head>The Persons</head>
+           <castList>   
+              <castItem>The attendant Spirit afterwards in the habit of Thyrsis</castItem>
+              <castItem><role xml:id="comus">Comus</role> with his crew</castItem>
+              <castItem><role xml:id="lady">The Lady</role></castItem>
+              <castItem><role xml:id="bro1">1. Brother</role></castItem>
+              <castItem><role xml:id="bro2">2. Brother</role></castItem>
+              <castItem><role xml:id="sabrina">Sabrina</role>, the Nymph</castItem>
+           </castList>
+        </div>
+           
+           <performance>
+              <p>The cheif persons which presented, were
+                 <name>The Lord Bracly,</name>
+                 <name>Mr. Thomas Egerton, his Brother,</name>
+                 <name>The Lady Alice Egerton.</name>
+              </p>
+           </performance>
+
+     </front>
+      <body>
+         
+         <div1 type="scene" n="1">
+            <head>The first Scene discovers a wilde Wood.</head>
+         <stage type="entrance">The attendant Spirit descends or enters.</stage>
+         
+         <lg>
+            <l>Before the starry threshold of Joves Court</l>
+<l>My mansion is, where those immortal shapes</l>
+            <l>Of bright aëreal Spirits live insphear'd</l>
+         <l>In Regions milde of calm and serene Ayr,</l>
+         <l n="5">Above the smoak and stirr of this dim spot,</l>
+         <l>Which men call Earth, and with low-thoughted care</l>
+         <l>Confin'd, and pester'd in this pin-fold here,</l>
+         <l>Strive to keep up a frail, and Feaverish being</l>
+         <l>Unmindfull of the crown that Vertue gives</l>
+         <l n="10">After this mortal change, to her true Servants</l>
+         <l>Amongst the enthron'd gods on Sainted seats.</l>
+         <l>Yet som there be that by due steps aspire</l>
+         <l>To lay their just hands on that Golden Key</l>
+         <l>That ope's the Palace of Eternity:</l>
+         <l n="15">To such my errand is, and but for such,</l>
+         <l>I would not soil these pure Ambrosial weeds,</l>
+         <l>With the rank vapours of this Sin-worn mould.</l>
+         </lg>
+         
+         <!-- skipping ahead to demo speeches -->
+         
+         <sp who="#comus">
+            <speaker>Co.</speaker> 
+            <l>What chance good Lady hath bereft you thus?</l>
+         </sp>
+         
+         <sp who="#lady">
+            <speaker>La.</speaker> 
+           <l>Dim darknes, and this heavy Labyrinth.</l>
+         </sp>
+         
+         <sp who="#comus"><speaker>Co.</speaker> 
+            <l>Could that divide you from neer-ushering guides?</l></sp>
+         
+         <sp who="#lady"><speaker>La.</speaker>
+            <l n="280">They left me weary on a grassie terf.</l>
+         </sp>
+            
+            <!-- skipping ahead to demo stage dir -->
+            
+            <sp who="#bro1"><speaker>Eld. Bro.</speaker> 
+               <lg><l>Ile hallow,</l>
+            <l>If he be friendly he comes well, if not,</l>
+            <l>Defence is a good cause, and Heav'n be for us.</l>
+            
+            <stage type="setting">The attendant Spirit habited like a Shepherd.</stage>
+            
+            
+            <l n="490">That hallow I should know, what are you? speak;</l>
+            <l>Com not too neer, you fall on iron stakes else.</l>
+               </lg>
+            </sp>
+            
+            <sp who="#sabrina"><speaker>Spir.</speaker> 
+               <l>What voice is that, my young Lord? speak agen.</l></sp>
+            
+            <sp who="#bro2"><speaker>2 Bro.</speaker> 
+               <l>O brother, 'tis my fathers Shepherd sure.</l>
+            </sp>
+            
+            <sp who="#bro1"><speaker>Eld. Bro.</speaker> 
+               <lg>
+                  <l>Thyrsis? Whose artful strains have oft delaid</l>
+            <l n="495">The huddling brook to hear his madrigal,</l>
+            <l>And sweeten'd every muskrose of the dale,</l>
+            <l>How cam'st thou here good Swain? hath any ram</l>
+            <l>Slip't from the fold, or young Kid lost his dam,</l>
+            <l>Or straggling weather the pen't flock forsook?</l>
+            <l n="500">How couldst thou find this dark sequester'd nook?</l>
+               </lg>
+            </sp>
+         </div1>
+      </body>
+  </text>
+</TEI>
