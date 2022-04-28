@@ -25,6 +25,7 @@
 `//div/div[self::* or following-sibling::div]`
 
 - Write an axis expression that finds all parent nodes of stage elements
+
 `//stage/parent::*`
 
 - Write an axis expression that finds all speeches that come before or after a Hamlet speech.
