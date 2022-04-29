@@ -39,7 +39,7 @@
 `//sp[not(@who='Hamlet')]`
 - Find all speech elements by Hamlet and Ophelia
 
-`//sp[@who='Hamlet'] | //sp[@who='Ophelia']`
+`//sp[@who='Hamlet'] | //sp[@who='Ophelia']` or `//sp[@who=('Hamlet', 'Ophelia')]`
 
 - Find the last line of each speech by Ophelia
 
